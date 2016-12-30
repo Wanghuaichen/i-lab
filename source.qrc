@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/picture/gif">
+        <file>gif1.gif</file>
+        <file>gif2.gif</file>
+    </qresource>
+    <qresource prefix="/picture/background">
+        <file>QQ-backgroud.png</file>
+        <file>能耗.png</file>
+        <file>生产看板.jpg</file>
+        <file>加工中心仿真.png</file>
+    </qresource>
+    <qresource prefix="/picture/logo">
+        <file>icon-passport.png</file>
+        <file>user.png</file>
+        <file>HUST-LOGO-Transparent.png</file>
+        <file>登录.png</file>
+        <file>取消.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RFID</class>
+ <widget class="QWidget" name="RFID">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>432</width>
+    <height>365</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>RFID工艺跟踪系统</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>351</width>
+     <height>276</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="2">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>编号1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="2">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>编号8</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2">
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>编号7</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2">
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>编号6</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QLabel" name="label_13">
+      <property name="text">
+       <string>编号3</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string>编号4</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>编号5</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLabel" name="label_14">
+      <property name="text">
+       <string>编号2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="2">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>编号9</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="4">
+     <widget class="QLineEdit" name="lineEdit_4"/>
+    </item>
+    <item row="1" column="3">
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="text">
+       <string>类型1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="4">
+     <widget class="QLineEdit" name="lineEdit_2"/>
+    </item>
+    <item row="2" column="3">
+     <widget class="QLineEdit" name="lineEdit_3"/>
+    </item>
+    <item row="0" column="4">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>位置</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>物料类型</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="2">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>编号10</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="3">
+     <widget class="QLineEdit" name="lineEdit_5"/>
+    </item>
+    <item row="3" column="4">
+     <widget class="QLineEdit" name="lineEdit_6"/>
+    </item>
+    <item row="4" column="3">
+     <widget class="QLineEdit" name="lineEdit_7"/>
+    </item>
+    <item row="4" column="4">
+     <widget class="QLineEdit" name="lineEdit_8"/>
+    </item>
+    <item row="5" column="3">
+     <widget class="QLineEdit" name="lineEdit_9"/>
+    </item>
+    <item row="5" column="4">
+     <widget class="QLineEdit" name="lineEdit_10"/>
+    </item>
+    <item row="6" column="3">
+     <widget class="QLineEdit" name="lineEdit_11"/>
+    </item>
+    <item row="6" column="4">
+     <widget class="QLineEdit" name="lineEdit_12"/>
+    </item>
+    <item row="7" column="3">
+     <widget class="QLineEdit" name="lineEdit_13"/>
+    </item>
+    <item row="7" column="4">
+     <widget class="QLineEdit" name="lineEdit_14"/>
+    </item>
+    <item row="8" column="3">
+     <widget class="QLineEdit" name="lineEdit_15"/>
+    </item>
+    <item row="8" column="4">
+     <widget class="QLineEdit" name="lineEdit_16"/>
+    </item>
+    <item row="9" column="3">
+     <widget class="QLineEdit" name="lineEdit_17"/>
+    </item>
+    <item row="9" column="4">
+     <widget class="QLineEdit" name="lineEdit_18"/>
+    </item>
+    <item row="10" column="3">
+     <widget class="QLineEdit" name="lineEdit_19"/>
+    </item>
+    <item row="10" column="4">
+     <widget class="QLineEdit" name="lineEdit_20"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>241</width>
+     <height>52</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>主功能区</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QPushButton" name="pbStart">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>40</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:5px; 
+background-color: rgb(0, 255, 0);</string>
+        </property>
+        <property name="text">
+         <string>开始</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbStop">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>40</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:5px; 
+background-color: rgb(232, 0, 0)</string>
+        </property>
+        <property name="text">
+         <string>停止</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbPause">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>40</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:5px;   
+background-color: rgb(255, 255, 0);</string>
+        </property>
+        <property name="text">
+         <string>暂停</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="Line" name="line_8">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbScram">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:5px;   
+background-color: rgb(255, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>急停</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
